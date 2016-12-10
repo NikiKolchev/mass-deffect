@@ -14,6 +14,7 @@ public class SolarSystemServiceImpl implements SolarSystemService{
     @Autowired
     private ModelParser modelParser;
 
+    @Autowired
     private SolarSystemRepository solarSystemRepository;
 
     @Override
